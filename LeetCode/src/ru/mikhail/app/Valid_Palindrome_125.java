@@ -3,18 +3,19 @@ package ru.mikhail.app;
 public class Valid_Palindrome_125 {
     public boolean isPalindrome(String s) {
         String helper = "";
-        int length_string = s.length();
-        for (int i = 0; i < s.length() / 2; i++) {
-            if (s.charAt(i) == ' ' || s.charAt(i) == ',' || s.charAt(i) == ':') {
-                i++;
+        int left = 0;
+        int right = s.length()-1;
+        for (; left < right; left++) {
+            if (s.charAt(left) == ' ' || s.charAt(left) == ',' || s.charAt(left) == ':') {
+                left++;
             }
-            if (s.charAt(length_string - 1) == ' ' || s.charAt(length_string - 1) == ',' || s.charAt(length_string - 1) == ':') {
-                length_string--;
+            if (s.charAt(right) == ' ' || s.charAt(right) == ',' || s.charAt(right) == ':') {
+                right--;
             }
             /*if (s.equalsIgnoreCase(s.charAt(i)) != s.equalsIgnoreCase(s.charAt(s.length() - 1))) {
                 return false;
             }*/
-            length_string--;
+            right--;
         }
         return true;
     }

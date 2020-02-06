@@ -1,5 +1,8 @@
 package ru.mikhail.app;
 
+/**
+ * исправить ошибку (символы должны идти последовательно, если нет, вернуть -1)
+ */
 public class Implement_28 {
     public int strStr(String haystack, String needle) {
         int helper = 0;

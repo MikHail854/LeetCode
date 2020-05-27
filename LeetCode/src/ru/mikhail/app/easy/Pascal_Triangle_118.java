@@ -28,7 +28,6 @@ public class Pascal_Triangle_118 {
                     listUnder.add(1);
                 } else {
                     int helper;
-                    int k = 0;
                     helper = listAll.get(i -1).get(j) + listAll.get(i -1).get(j-1);
                     listUnder.add(helper);
                 }

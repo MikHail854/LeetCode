@@ -1,4 +1,4 @@
-package ru.mikhail.app;
+package ru.mikhail.app.easy;
 
 /**
  * Given a 32-bit signed integer, reverse digits of an integer.

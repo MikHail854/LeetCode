@@ -1,4 +1,4 @@
-package ru.mikhail.app;
+package ru.mikhail.app.easy;
 
 public class TwoSum_1 {
     public static class Sum {

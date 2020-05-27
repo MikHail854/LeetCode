@@ -1,4 +1,4 @@
-package ru.mikhail.app;
+package ru.mikhail.app.easy;
 
 /**
  * Given an integer array nums, find the contiguous subarray (containing at least one number)

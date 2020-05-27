@@ -1,4 +1,4 @@
-package ru.mikhail.app;
+package ru.mikhail.app.easy;
 
 /**
  * Write a function to find the longest common prefix string amongst an array of strings.

@@ -1,4 +1,4 @@
-package ru.mikhail.app;
+package ru.mikhail.app.easy;
 
 /**
  * Given an array of integers that is already sorted in ascending order,

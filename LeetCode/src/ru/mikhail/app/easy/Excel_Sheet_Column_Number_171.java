@@ -1,4 +1,4 @@
-package ru.mikhail.app;
+package ru.mikhail.app.easy;
 
 /**
  * Given a column title as appear in an Excel sheet, return its corresponding column number.

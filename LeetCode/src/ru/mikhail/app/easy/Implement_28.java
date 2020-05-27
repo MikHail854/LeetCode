@@ -1,4 +1,4 @@
-package ru.mikhail.app;
+package ru.mikhail.app.easy;
 
 /**
  * исправить ошибку (символы должны идти последовательно, если нет, вернуть -1)

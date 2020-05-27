@@ -1,4 +1,4 @@
-package ru.mikhail.app;
+package ru.mikhail.app.easy;
 
 /**
  * Given a non-empty array of digits representing a non-negative integer, plus one to the integer.

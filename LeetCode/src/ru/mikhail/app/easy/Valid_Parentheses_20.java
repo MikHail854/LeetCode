@@ -1,4 +1,4 @@
-package ru.mikhail.app;
+package ru.mikhail.app.easy;
 
 import java.util.HashMap;
 import java.util.Stack;

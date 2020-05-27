@@ -1,4 +1,4 @@
-package ru.mikhail.app;
+package ru.mikhail.app.easy;
 
 /**
  * Given an array, rotate the array to the right by k steps, where k is non-negative.

@@ -1,4 +1,4 @@
-package ru.mikhail.app;
+package ru.mikhail.app.easy;
 
 /**
  *  Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.

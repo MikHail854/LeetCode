@@ -4,11 +4,7 @@ public class Count_Primes_204 {
     public int countPrimes(int n) {
         int result = 0;
         for (int i = 1; i <= n; i++) {
-            /*if (i / 2 != 0 && i / 3 != 0 && i / 5 != 0 && i / 7 != 0) {
-                result++;
-            }*/
-
-            if ((i / 2 == 0 && i % 3 == 0)|| i == 2){
+                       if ((i / 2 == 0 && i % 3 == 0)|| i == 2){
                 result++;
             } else
             if ((i / 3 == 0 && i % 3 == 0) || i == 3){

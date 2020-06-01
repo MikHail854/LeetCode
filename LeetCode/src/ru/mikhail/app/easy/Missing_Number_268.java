@@ -21,11 +21,8 @@ public class Missing_Number_268 {
             if (i != nums[i]) {
                 return i;
             }
-            if (i == nums.length - 1) {
-                return ++i;
-            }
         }
-        return -1;
+        return nums.length;
     }
 
     public static void main(String[] args) {

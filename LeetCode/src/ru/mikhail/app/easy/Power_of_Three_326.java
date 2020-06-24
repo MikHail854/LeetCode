@@ -24,13 +24,13 @@ package ru.mikhail.app.easy;
  */
 public class Power_of_Three_326 {
     public boolean isPowerOfThree(int n) {
-        if (n == 1 || n == 3)
+        if (n == 1)
             return true;
         while (n > 3) {
             if (n % 3 == 0) {
-                n = n / 3;
                 if (n == 3)
                     return true;
+                else n = n / 3;
             } else return false;
         }
         return false;

@@ -27,7 +27,6 @@ package ru.mikhail.app.easy;
  * t.length == s.length + 1
  * s and t consist of lower-case English letters.
  */
-
 public class Find_the_Difference_389 {
 
     public char findTheDifference(String s, String t) {
